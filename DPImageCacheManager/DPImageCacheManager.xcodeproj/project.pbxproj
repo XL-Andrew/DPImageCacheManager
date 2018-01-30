@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		496125EF202022FF00F25978 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 496125EE202022FF00F25978 /* AppDelegate.m */; };
+		496125F2202022FF00F25978 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 496125F1202022FF00F25978 /* ViewController.m */; };
+		496125F5202022FF00F25978 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 496125F3202022FF00F25978 /* Main.storyboard */; };
+		496125F7202022FF00F25978 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 496125F6202022FF00F25978 /* Assets.xcassets */; };
+		496125FA202022FF00F25978 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 496125F8202022FF00F25978 /* LaunchScreen.storyboard */; };
+		496125FD202022FF00F25978 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 496125FC202022FF00F25978 /* main.m */; };
+		496126062020238500F25978 /* DPImageCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 496126052020238500F25978 /* DPImageCacheManager.m */; };
+		496126092020452300F25978 /* NSData+DPBase64String.m in Sources */ = {isa = PBXBuildFile; fileRef = 496126082020452300F25978 /* NSData+DPBase64String.m */; };
+		4961271820204AE400F25978 /* DPImageCacheUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4961271720204AE400F25978 /* DPImageCacheUtils.m */; };
+		4961271C20204C8C00F25978 /* DPImageCacheSecurity.m in Sources */ = {isa = PBXBuildFile; fileRef = 4961271B20204C8C00F25978 /* DPImageCacheSecurity.m */; };
+		496127252020567B00F25978 /* DPImageCacheComparisonTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 496127242020567B00F25978 /* DPImageCacheComparisonTable.m */; };
+		49612728202063DC00F25978 /* LocalLibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49612727202063DC00F25978 /* LocalLibraryViewController.m */; };
+		4961272B202063E700F25978 /* NetImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4961272A202063E700F25978 /* NetImageViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		496125EA202022FF00F25978 /* DPImageCacheManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DPImageCacheManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		496125ED202022FF00F25978 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		496125EE202022FF00F25978 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		496125F0202022FF00F25978 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		496125F1202022FF00F25978 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		496125F4202022FF00F25978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		496125F6202022FF00F25978 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		496125F9202022FF00F25978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		496125FB202022FF00F25978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		496125FC202022FF00F25978 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		496126042020238500F25978 /* DPImageCacheManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DPImageCacheManager.h; path = ../../../../../GitHub/DPImageCacheManager_Demo/DPImageCacheManager/DPImageCacheManager/DPImageCacheManager/DPImageCacheManager.h; sourceTree = "<group>"; };
+		496126052020238500F25978 /* DPImageCacheManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DPImageCacheManager.m; path = ../../../../../GitHub/DPImageCacheManager_Demo/DPImageCacheManager/DPImageCacheManager/DPImageCacheManager/DPImageCacheManager.m; sourceTree = "<group>"; };
+		496126072020452300F25978 /* NSData+DPBase64String.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+DPBase64String.h"; sourceTree = "<group>"; };
+		496126082020452300F25978 /* NSData+DPBase64String.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+DPBase64String.m"; sourceTree = "<group>"; };
+		4961271620204AE400F25978 /* DPImageCacheUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPImageCacheUtils.h; sourceTree = "<group>"; };
+		4961271720204AE400F25978 /* DPImageCacheUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPImageCacheUtils.m; sourceTree = "<group>"; };
+		4961271920204B0900F25978 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		4961271A20204C8C00F25978 /* DPImageCacheSecurity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DPImageCacheSecurity.h; path = ../../../../../GitHub/DPImageCacheManager_Demo/DPImageCacheManager/DPImageCacheManager/DPImageCacheManager/DPImageCacheSecurity.h; sourceTree = "<group>"; };
+		4961271B20204C8C00F25978 /* DPImageCacheSecurity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DPImageCacheSecurity.m; path = ../../../../../GitHub/DPImageCacheManager_Demo/DPImageCacheManager/DPImageCacheManager/DPImageCacheManager/DPImageCacheSecurity.m; sourceTree = "<group>"; };
+		496127232020567B00F25978 /* DPImageCacheComparisonTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPImageCacheComparisonTable.h; sourceTree = "<group>"; };
+		496127242020567B00F25978 /* DPImageCacheComparisonTable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPImageCacheComparisonTable.m; sourceTree = "<group>"; };
+		49612726202063DC00F25978 /* LocalLibraryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalLibraryViewController.h; sourceTree = "<group>"; };
+		49612727202063DC00F25978 /* LocalLibraryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalLibraryViewController.m; sourceTree = "<group>"; };
+		49612729202063E700F25978 /* NetImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetImageViewController.h; sourceTree = "<group>"; };
+		4961272A202063E700F25978 /* NetImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetImageViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		496125E7202022FF00F25978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		496125E1202022FF00F25978 = {
+			isa = PBXGroup;
+			children = (
+				496125EC202022FF00F25978 /* DPImageCacheManager */,
+				496125EB202022FF00F25978 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		496125EB202022FF00F25978 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				496125EA202022FF00F25978 /* DPImageCacheManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		496125EC202022FF00F25978 /* DPImageCacheManager */ = {
+			isa = PBXGroup;
+			children = (
+				496126032020232F00F25978 /* DPImageCacheManager */,
+				496125ED202022FF00F25978 /* AppDelegate.h */,
+				496125EE202022FF00F25978 /* AppDelegate.m */,
+				496125F0202022FF00F25978 /* ViewController.h */,
+				496125F1202022FF00F25978 /* ViewController.m */,
+				49612726202063DC00F25978 /* LocalLibraryViewController.h */,
+				49612727202063DC00F25978 /* LocalLibraryViewController.m */,
+				49612729202063E700F25978 /* NetImageViewController.h */,
+				4961272A202063E700F25978 /* NetImageViewController.m */,
+				4961271920204B0900F25978 /* PrefixHeader.pch */,
+				496125F3202022FF00F25978 /* Main.storyboard */,
+				496125F6202022FF00F25978 /* Assets.xcassets */,
+				496125F8202022FF00F25978 /* LaunchScreen.storyboard */,
+				496125FB202022FF00F25978 /* Info.plist */,
+				496125FC202022FF00F25978 /* main.m */,
+			);
+			path = DPImageCacheManager;
+			sourceTree = "<group>";
+		};
+		496126032020232F00F25978 /* DPImageCacheManager */ = {
+			isa = PBXGroup;
+			children = (
+				496126042020238500F25978 /* DPImageCacheManager.h */,
+				496126052020238500F25978 /* DPImageCacheManager.m */,
+				496127232020567B00F25978 /* DPImageCacheComparisonTable.h */,
+				496127242020567B00F25978 /* DPImageCacheComparisonTable.m */,
+				4961271A20204C8C00F25978 /* DPImageCacheSecurity.h */,
+				4961271B20204C8C00F25978 /* DPImageCacheSecurity.m */,
+				4961271620204AE400F25978 /* DPImageCacheUtils.h */,
+				4961271720204AE400F25978 /* DPImageCacheUtils.m */,
+				496126072020452300F25978 /* NSData+DPBase64String.h */,
+				496126082020452300F25978 /* NSData+DPBase64String.m */,
+			);
+			path = DPImageCacheManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		496125E9202022FF00F25978 /* DPImageCacheManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49612600202022FF00F25978 /* Build configuration list for PBXNativeTarget "DPImageCacheManager" */;
+			buildPhases = (
+				496125E6202022FF00F25978 /* Sources */,
+				496125E7202022FF00F25978 /* Frameworks */,
+				496125E8202022FF00F25978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DPImageCacheManager;
+			productName = DPImageCacheManager;
+			productReference = 496125EA202022FF00F25978 /* DPImageCacheManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		496125E2202022FF00F25978 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Andrew;
+				TargetAttributes = {
+					496125E9202022FF00F25978 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 496125E5202022FF00F25978 /* Build configuration list for PBXProject "DPImageCacheManager" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 496125E1202022FF00F25978;
+			productRefGroup = 496125EB202022FF00F25978 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				496125E9202022FF00F25978 /* DPImageCacheManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		496125E8202022FF00F25978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496125FA202022FF00F25978 /* LaunchScreen.storyboard in Resources */,
+				496125F7202022FF00F25978 /* Assets.xcassets in Resources */,
+				496125F5202022FF00F25978 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		496125E6202022FF00F25978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4961272B202063E700F25978 /* NetImageViewController.m in Sources */,
+				49612728202063DC00F25978 /* LocalLibraryViewController.m in Sources */,
+				4961271820204AE400F25978 /* DPImageCacheUtils.m in Sources */,
+				496125F2202022FF00F25978 /* ViewController.m in Sources */,
+				496125FD202022FF00F25978 /* main.m in Sources */,
+				496127252020567B00F25978 /* DPImageCacheComparisonTable.m in Sources */,
+				4961271C20204C8C00F25978 /* DPImageCacheSecurity.m in Sources */,
+				496126092020452300F25978 /* NSData+DPBase64String.m in Sources */,
+				496126062020238500F25978 /* DPImageCacheManager.m in Sources */,
+				496125EF202022FF00F25978 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		496125F3202022FF00F25978 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				496125F4202022FF00F25978 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		496125F8202022FF00F25978 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				496125F9202022FF00F25978 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		496125FE202022FF00F25978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		496125FF202022FF00F25978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49612601202022FF00F25978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QJQ9P7Z764;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DPImageCacheManager/PrefixHeader.pch";
+				INFOPLIST_FILE = DPImageCacheManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrew.github.DPImageCacheManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49612602202022FF00F25978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QJQ9P7Z764;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DPImageCacheManager/PrefixHeader.pch";
+				INFOPLIST_FILE = DPImageCacheManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrew.github.DPImageCacheManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		496125E5202022FF00F25978 /* Build configuration list for PBXProject "DPImageCacheManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				496125FE202022FF00F25978 /* Debug */,
+				496125FF202022FF00F25978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49612600202022FF00F25978 /* Build configuration list for PBXNativeTarget "DPImageCacheManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49612601202022FF00F25978 /* Debug */,
+				49612602202022FF00F25978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 496125E2202022FF00F25978 /* Project object */;
+}
